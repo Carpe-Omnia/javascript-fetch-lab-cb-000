@@ -38,7 +38,7 @@ function createIssue() {
   };
 
   fetch(link, {
-    method: 'POST',
+    method: 'post',
     body: JSON.stringify(postData),
     headers: {
       Authorization: `token ${token}`
