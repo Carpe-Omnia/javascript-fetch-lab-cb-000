@@ -11,8 +11,9 @@ function showResults(json) {
 }
 
 function forkRepo() {
-  const repo = 'learn-co-curriculum/javascript-fetch-lab'
-  const token = '75665f68a1b9e1840952847865862b8c9762f002'
+  const repo = 'learn-co-curriculum/javascript-fetch-lab' ;
+  const token = getToken() ;
+
 }
 
 function getToken() {
