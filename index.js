@@ -4,7 +4,7 @@ function getIssues() {
   var link = 'https://api.github.com/repos/Carpe-Omnia/javascript-fetch-lab/issues' ;
   const token = getToken() ;
   fetch(link, {
-    method: 'GET',
+    method: 'get',
     headers: {
       Authorization: `token ${token}`
     }
